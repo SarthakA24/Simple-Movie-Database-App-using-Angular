@@ -1,1 +1,7 @@
 <p>{{dashboardText}}</p>
+<div *ngFor="let movie of movieDetails" class="">
+    <div>{{movie.movieTitle}}</div>
+    <div>{{movie.yearOfRelease}}</div>
+    <div>{{movie.rating}}</div>
+    <div>{{movie.genre}}</div>
+</div>
