@@ -10,6 +10,7 @@ import { Movie } from '../model/movie'
 export class DashboardComponentComponent implements OnInit {
   dashboardText: string = "Trending Movies";
   movieDetails: Movie[] = MOVIES;
+  reviewImage: string = "../assets/resources/rating.jpg";
   constructor() { }
 
   ngOnInit(): void {
