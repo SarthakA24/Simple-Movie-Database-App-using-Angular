@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MOVIES } from '../model/movies';
 
 @Component({
   selector: 'app-dashboard-component',
