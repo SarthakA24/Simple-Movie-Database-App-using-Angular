@@ -13,7 +13,7 @@ export class DashboardComponentComponent implements OnInit {
   reviewImage: string = "../assets/resources/rating.jpg";
   searchText: string = "";
 
-  search(){
+  search() {
     this.movieDetails = MOVIES.filter(movie => movie.movieTitle?.match(this.searchText));
   }
 

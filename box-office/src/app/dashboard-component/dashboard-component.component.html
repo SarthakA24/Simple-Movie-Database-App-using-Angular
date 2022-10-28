@@ -1,7 +1,7 @@
 <p>{{dashboardText}}</p>
 <div class="searchBox">
-    <input type="text" placeholder="Search Movie" [(ngModel)] ='searchText' class="search">&nbsp;
-    <button (click) = "search()">Go</button>&nbsp;<button (click) ="reset()">Clear</button>
+    <input type="text" placeholder="Search Movie" [(ngModel)]='searchText' class="search">&nbsp;
+    <button (click)="search()">Go</button>&nbsp;<button (click)="reset()">Clear</button>
 </div>
 <div class="grid">
     <div *ngFor="let movie of movieDetails">
