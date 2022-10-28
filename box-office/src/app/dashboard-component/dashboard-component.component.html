@@ -2,9 +2,7 @@
 <div class="grid">
     <div *ngFor="let movie of movieDetails" class="grid-items">
         <div><img src="../assets/resources/{{movie.movieTitle}}.jpg"></div>
-        <div>{{movie.movieTitle}}</div>
-        <div>{{movie.yearOfRelease}}</div>
-        <div>{{movie.rating}}</div>
-        <div>{{movie.genre}}</div>
+        <div><img src="{{reviewImage}}" style="height: 15px; width: 20px;"> {{movie.rating}}</div>
+        <div>{{movie.movieTitle}} {{movie.yearOfRelease}} {{movie.genre}}</div>
     </div>
 </div>
