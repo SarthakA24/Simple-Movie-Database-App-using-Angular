@@ -5,15 +5,11 @@ p {
     padding: 10px 0 40px 0;
 }
 
-.grid-items img {
+.grid img {
     width: 400px;
     height: 250px;
     border-radius: 5px;
     text-align: center;
-}
-
-.grid-items {
-    padding: 20px;
 }
 
 .grid {
@@ -21,6 +17,8 @@ p {
     grid-template-columns: auto auto auto;
     color: white;
     padding: 10px 60px 0 60px;
+    column-gap: 50px;
+    row-gap: 50px;
 }
 
 .searchBox {
