@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MOVIES } from '../model/movies';
+import { Movie } from '../model/movie'
 
 @Component({
   selector: 'app-dashboard-component',
@@ -8,6 +9,7 @@ import { MOVIES } from '../model/movies';
 })
 export class DashboardComponentComponent implements OnInit {
   dashboardText: string = "Trending Movies";
+  movieDetails: Movie[] = MOVIES;
   constructor() { }
 
   ngOnInit(): void {
