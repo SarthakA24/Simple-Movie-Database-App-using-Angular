@@ -4,7 +4,7 @@
     <button (click) = "search()">Go</button>&nbsp;<button (click) ="reset()">Clear</button>
 </div>
 <div class="grid">
-    <div *ngFor="let movie of movieDetails" class="grid-items">
+    <div *ngFor="let movie of movieDetails">
         <div><img src="../assets/resources/{{movie.movieTitle}}.jpg"></div>
         <div><img src="{{reviewImage}}" style="height: 15px; width: 20px;"> {{movie.rating}}</div>
         <div>{{movie.movieTitle}} &nbsp; {{movie.yearOfRelease}} &nbsp; {{movie.genre}}</div>
