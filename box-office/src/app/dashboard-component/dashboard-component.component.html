@@ -1,8 +1,10 @@
 <p>{{dashboardText}}</p>
 <div *ngFor="let movie of movieDetails" class="">
-    <div><img src="../assets/resources/{{movie.movieTitle}}.jpg"></div>
-    <div>{{movie.movieTitle}}</div>
-    <div>{{movie.yearOfRelease}}</div>
-    <div>{{movie.rating}}</div>
-    <div>{{movie.genre}}</div>
+    <div class="cards">
+        <div><img src="../assets/resources/{{movie.movieTitle}}.jpg"></div>
+        <div>{{movie.movieTitle}}</div>
+        <div>{{movie.yearOfRelease}}</div>
+        <div>{{movie.rating}}</div>
+        <div>{{movie.genre}}</div>
+    </div>
 </div>
