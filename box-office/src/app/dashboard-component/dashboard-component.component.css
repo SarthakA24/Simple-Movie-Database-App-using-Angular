@@ -1,7 +1,19 @@
 p {
-    background-color: black;
     color: white;
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+.grid-items img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
 }
