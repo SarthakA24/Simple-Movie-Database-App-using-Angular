@@ -1,4 +1,8 @@
 <p>{{dashboardText}}</p>
+<div class="searchBox">
+    <input type="text" placeholder="Search Movie" class="search">&nbsp;
+    <button>Go</button>&nbsp;<button>Clear</button>
+</div>
 <div class="grid">
     <div *ngFor="let movie of movieDetails" class="grid-items">
         <div><img src="../assets/resources/{{movie.movieTitle}}.jpg"></div>
